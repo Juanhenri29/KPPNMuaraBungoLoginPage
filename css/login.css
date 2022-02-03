@@ -1,0 +1,141 @@
+/* Background Page */
+body {
+  font-family: Montserrat;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+.bg-login {
+  padding: 0;
+}
+
+.judul-atas {
+  letter-spacing: 0.1rem;
+  margin-bottom: 5rem;
+}
+
+.row {
+  margin: 0;
+}
+
+/* Tampilan Kiri */
+.tampilan-kiri {
+  background-color: #1455CB;
+  color: #c9dbef;
+  padding: 5rem;
+}
+
+.description {
+  margin-top: 5rem;
+  margin-right: 12rem;
+  line-height: 1.7;
+}
+
+.icon-img {
+  margin: 7rem 4rem 0 0;
+}
+
+.icon-img{
+  transition: font-size 0.7s;
+}
+
+.icon-img:hover{
+  font-size: 12rem;
+}
+
+@media (max-width: 991.98px) {
+  .icon-img {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .description {
+    display: none !important;
+  }
+}
+
+/* Tampilan Kanan */
+.tampilan-kanan {
+  background-color: #c9dbef;
+  padding: 0;
+}
+
+/* Kartu */
+.card {
+  border-radius: 20px;
+  margin: 25% auto 27% auto;
+}
+
+.card-body {
+  margin: 1rem 0;
+  border-radius: 20px;
+}
+
+.card-title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1455CB;
+}
+
+.card-subtitle {
+  margin-bottom: 0.7rem;
+}
+
+.card-atas {
+  display: inline-block;
+}
+
+.card-link{
+  font-size: 0.9rem;
+}
+
+.tim-medsos{
+  font-size: 0.6rem;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+/* Form Sign In */
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.text-muted {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.checkbox {
+  margin: 0.7rem 0;
+}
+
+.remember-me {
+  margin: 0.7rem 0 1rem 35%;
+}
